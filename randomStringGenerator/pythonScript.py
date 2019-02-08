@@ -21,5 +21,5 @@ def reverseString(forwardString):
 
 newString = generateString()
 with open('randomStringOutput.txt', 'w') as file:
-    file.write(newString)
+    file.write(newString + '\n')
     file.write(reverseString(newString))
